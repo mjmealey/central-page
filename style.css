@@ -1,0 +1,103 @@
+@font-face {
+  font-family: helvetica;
+  src: url("Helvetica.ttf");
+}
+
+h1 {
+  margin-right: 620px;
+}
+
+body {
+  background-color: royalblue;
+  background-image: url(lgbtqheart.jpg);
+  background-size: auto 500px;
+  background-repeat: no-repeat;
+  background-position-x: 1550px;
+  background-position-y: 300px;
+  overflow: hidden;
+}
+
+.size {
+  height: 50px;
+  margin-bottom: -11px;
+}
+
+#container {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  justify-content: center;
+  font-family: helvetica;
+  background-color: hotpink;
+  color: white;
+  margin-left: -220px;
+  height: 100px;
+  width: 2985px;
+  margin-bottom: 100px;
+  margin-top: -10px;
+}
+
+#links {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -600px;
+}
+
+.button {
+  background-color: #599fda;
+  font-family: helvetica;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  margin-top: 15px;
+  color: white;
+  border-color: #599fda;
+}
+
+.button:hover {
+  background-color: steelblue;
+}
+
+#signUp {
+  margin-right: -800px;
+  margin-left: 80px;
+}
+
+#update {
+  margin-right: -1320px;
+}
+
+#summary {
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+#cancel {
+  margin-right: -302px;
+  position: relative;
+  left: 11px;
+}
+
+#aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about {
+  margin-left: 275px;
+  font-size: 15px;
+  color: white;
+  font-family: helvetica;
+}
+
+#footerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 715px;
+  margin-left: 900px;
+  width: 1000px;
+  color: white;
+  font-weight: bolder;
+}
