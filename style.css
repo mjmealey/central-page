@@ -1,64 +1,106 @@
-@font-face{
-    font-family:helvetica;
-    src:url("Helvetica.ttf")
+@font-face {
+  font-family: helvetica;
+  src: url("Helvetica.ttf");
 }
 
-body{
-    background-color:steelblue;
-    color:white;
-    font-family:helvetica;
-    font-size:20px;
+h1 {
+  margin-right: 620px;
 }
 
-.cancelContainer{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+body {
+  background-color: royalblue;
+  background-image: url(lgbtqheart.jpg);
+  background-size: auto 500px;
+  background-repeat: no-repeat;
+  background-position-x: 1550px;
+  background-position-y: 300px;
+  overflow: hidden;
 }
 
-.cancelOne{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    margin-top:30px;
-    margin-right:10px;
-}
-.cancelLabel{
-    margin-left:200px;
+.size {
+  height: 50px;
+  margin-bottom: -11px;
 }
 
-#cancelReason{
-margin-top:200px;
-margin-left:10px;
+#container {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100px;
+  justify-content: center;
+  font-family: helvetica;
+  background-color: hotpink;
+  color: white;
+  margin-left: -220px;
+  height: 100px;
+  width: 2985px;
+  margin-bottom: 100px;
+  margin-top: -10px;
 }
 
-.messagePrompt{
-    margin-top:100px;
-    margin-right:150px;
+#links {
+  display: flex;
+  justify-content: space-between;
+  margin-right: -600px;
 }
 
-#optionalMessage{
-    margin-left:-10px;
-    height:500px;
-    width:1000px;
-    margin-top:85px;
+.button {
+  background-color: #599fda;
+  font-family: helvetica;
+  padding: 10px;
+  border-radius: 10px;
+  border-style: solid;
+  margin-top: 15px;
+  color: white;
+  border-color: #599fda;
 }
 
-
-#submit{
-    margin-left:1230px;
-    margin-top:80px;
-    background-color:#599fda;
-    color:white;
-    font-family:helvetica;
-    border-color:#599fda;
-    border-style:solid;
-    border-radius:10px;
-    padding:20px;
-    width:100px;
+#login{
+  margin-left:5px;
 }
 
-#submit:hover{
-    background-color:steelblue;
+.button:hover {
+  background-color: steelblue;
+}
+
+#signUp {
+  margin-left: -395px;
+}
+
+#update {
+  margin-right: -1185px;
+}
+
+#summary {
+  font-size: 50px;
+  margin-top: 150px;
+}
+
+#cancel {
+  margin-left: 385px;
+  position: relative;
+  left: 225px;
+}
+
+#aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about {
+  margin-left: 275px;
+  font-size: 15px;
+  color: white;
+  font-family: helvetica;
+}
+
+#footerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 715px;
+  margin-left: 900px;
+  width: 1000px;
+  color: white;
+  font-weight: bolder;
 }
