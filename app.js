@@ -12,3 +12,10 @@ cancel.addEventListener("click", (e) => {
     window.location.href = "https://mjmealey.github.io/confirmAccount/";
   }
 });
+
+
+update.addEventListener("click", (e) => {
+  if (e.target.id === "update") {
+    window.location.href = "https://thunderous-sunburst-d4f8e7.netlify.app/";
+  }
+});
