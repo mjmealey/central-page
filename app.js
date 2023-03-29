@@ -1,5 +1,6 @@
 const signUp = document.getElementById("signUp");
 const cancel = document.getElementById("cancel");
+const update = document.getElementById("update")
 
 signUp.addEventListener("click", (e) => {
   if (e.target.id === "signUp") {
