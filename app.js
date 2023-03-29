@@ -1,6 +1,7 @@
 const signUp = document.getElementById("signUp");
 const cancel = document.getElementById("cancel");
-const update = document.getElementById("update")
+const update = document.getElementById("update");
+const login = document.getElementById("login");
 
 signUp.addEventListener("click", (e) => {
   if (e.target.id === "signUp") {
@@ -14,9 +15,15 @@ cancel.addEventListener("click", (e) => {
   }
 });
 
-
 update.addEventListener("click", (e) => {
   if (e.target.id === "update") {
     window.location.href = "https://thunderous-sunburst-d4f8e7.netlify.app/";
   }
 });
+
+login.addEventListener("click", (e) => {
+  if(e.target.id === "login"){
+  	window.location.href="https://mjmealey.github.io/login-page/"
+    
+  }
+})
